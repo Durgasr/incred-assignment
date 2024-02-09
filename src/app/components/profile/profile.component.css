@@ -1,0 +1,105 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background-image: linear-gradient(to bottom right, #F89880, #DA70D6);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color: white;
+    width: 530px;
+    background-image: url("https://images.unsplash.com/photo-1545703549-7bdb1d01b734?q=30&w=1934&h=1050&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: 530px 290px;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 30px;
+}
+
+.flexing {
+    display: flex;
+}
+
+.image-style {
+    height: 170px;
+    width: 170px;
+    background-color: white;
+    margin: 168px 80px 0px 168px;
+    border-radius: 120px;
+    box-shadow: 2px 10px 10px 4px #d3d3d3;
+    padding: 22px;
+}
+
+.name {
+    text-align: center;
+    padding: 0px;
+    margin-top: 26px;
+    margin-bottom: 10px;
+
+}
+
+.title {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-weight: 600;
+    color: #808080;
+}
+
+
+.icon-style {
+    font-size: 30px;
+    margin-top: 300px;
+}
+
+.followers-count,
+.following-count {
+    color: #1F75FE;
+    font-size: 34px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+
+.followers,
+.following {
+    color: gray;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.follower {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 0px;
+    padding: 10px;
+    margin-left: 100px;
+}
+
+.follower-container {
+    display: flex;
+    margin-top: 10px;
+}
+
+.follow-button {
+    background-color: yellow;
+    color: #000;
+    font-weight: bold;
+    margin: 0px 50px;
+    border: 1px solid yellow;
+    width: 410px;
+    padding: 10px 0px;
+    font-size: 24px;
+    border-radius: 28px;
+}
+
+.description {
+    font-size: 24px;
+    margin: 26px 48px;
+}
